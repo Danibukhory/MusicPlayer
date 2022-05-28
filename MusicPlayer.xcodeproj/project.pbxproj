@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E7ED2412841DB2A00CF60FC /* cintaadalahmisteri.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED2402841DB2A00CF60FC /* cintaadalahmisteri.mp3 */; };
+		6E7ED2432841DB7C00CF60FC /* dewapupus.MP3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED2422841DB7C00CF60FC /* dewapupus.MP3 */; };
+		6E7ED2452841DB8600CF60FC /* hadapidengansenyuman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED2442841DB8600CF60FC /* hadapidengansenyuman.mp3 */; };
+		6E7ED2472841DD7D00CF60FC /* dewa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED2462841DD7D00CF60FC /* dewa.jpeg */; };
 		6EAE80FA2841946300D8C2F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE80F92841946300D8C2F8 /* AppDelegate.swift */; };
 		6EAE80FC2841946300D8C2F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE80FB2841946300D8C2F8 /* SceneDelegate.swift */; };
 		6EAE80FE2841946300D8C2F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE80FD2841946300D8C2F8 /* ViewController.swift */; };
@@ -16,6 +20,7 @@
 		6EAE81112841946700D8C2F8 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE81102841946700D8C2F8 /* MusicPlayerTests.swift */; };
 		6EAE811B2841946700D8C2F8 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE811A2841946700D8C2F8 /* MusicPlayerUITests.swift */; };
 		6EAE811D2841946700D8C2F8 /* MusicPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE811C2841946700D8C2F8 /* MusicPlayerUITestsLaunchTests.swift */; };
+		6EAE812C2841950D00D8C2F8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAE812B2841950D00D8C2F8 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E7ED2402841DB2A00CF60FC /* cintaadalahmisteri.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cintaadalahmisteri.mp3; sourceTree = "<group>"; };
+		6E7ED2422841DB7C00CF60FC /* dewapupus.MP3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dewapupus.MP3; sourceTree = "<group>"; };
+		6E7ED2442841DB8600CF60FC /* hadapidengansenyuman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hadapidengansenyuman.mp3; sourceTree = "<group>"; };
+		6E7ED2462841DD7D00CF60FC /* dewa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dewa.jpeg; sourceTree = "<group>"; };
 		6EAE80F62841946300D8C2F8 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAE80F92841946300D8C2F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EAE80FB2841946300D8C2F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		6EAE81162841946700D8C2F8 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAE811A2841946700D8C2F8 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		6EAE811C2841946700D8C2F8 /* MusicPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EAE812B2841950D00D8C2F8 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,18 @@
 		6EAE80F82841946300D8C2F8 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6E7ED2402841DB2A00CF60FC /* cintaadalahmisteri.mp3 */,
+				6E7ED2422841DB7C00CF60FC /* dewapupus.MP3 */,
+				6E7ED2442841DB8600CF60FC /* hadapidengansenyuman.mp3 */,
 				6EAE80F92841946300D8C2F8 /* AppDelegate.swift */,
 				6EAE80FB2841946300D8C2F8 /* SceneDelegate.swift */,
 				6EAE80FD2841946300D8C2F8 /* ViewController.swift */,
 				6EAE80FF2841946300D8C2F8 /* Main.storyboard */,
 				6EAE81022841946600D8C2F8 /* Assets.xcassets */,
+				6E7ED2462841DD7D00CF60FC /* dewa.jpeg */,
 				6EAE81042841946600D8C2F8 /* LaunchScreen.storyboard */,
 				6EAE81072841946700D8C2F8 /* Info.plist */,
+				6EAE812B2841950D00D8C2F8 /* PlayerViewController.swift */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -231,9 +246,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED2432841DB7C00CF60FC /* dewapupus.MP3 in Resources */,
+				6E7ED2412841DB2A00CF60FC /* cintaadalahmisteri.mp3 in Resources */,
 				6EAE81062841946600D8C2F8 /* LaunchScreen.storyboard in Resources */,
 				6EAE81032841946600D8C2F8 /* Assets.xcassets in Resources */,
 				6EAE81012841946300D8C2F8 /* Main.storyboard in Resources */,
+				6E7ED2452841DB8600CF60FC /* hadapidengansenyuman.mp3 in Resources */,
+				6E7ED2472841DD7D00CF60FC /* dewa.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EAE80FE2841946300D8C2F8 /* ViewController.swift in Sources */,
+				6EAE812C2841950D00D8C2F8 /* PlayerViewController.swift in Sources */,
 				6EAE80FA2841946300D8C2F8 /* AppDelegate.swift in Sources */,
 				6EAE80FC2841946300D8C2F8 /* SceneDelegate.swift in Sources */,
 			);
